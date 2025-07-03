@@ -6,6 +6,11 @@ A simple self-hosted Discord bot that notifies you of new BlueSky posts from a u
 
 ### [Create your bot](https://discord.com/developers/applications) and [install node.js](https://nodejs.org/en)
 
+```
+git clone https://github.com/namedottxt/blue-relay
+cd blue-relay
+```
+
 Make sure the following variables are assigned their appropriate values:
 
 ```js
