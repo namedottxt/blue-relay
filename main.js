@@ -12,7 +12,7 @@ client.once(Events.ClientReady, () => {
     console.log(`Logged in as ${client.user.displayName}`);  
 
     let channelID = '' // Channel you want to redirect posts to
-    let username = '' // Handle's name, not display name
+    let username = '' // BlueSky handle's name, not display name
     let intervalSeconds = 120 // How often to check
     
     bluesky.getPostID(client, channelID, username, intervalSeconds)
